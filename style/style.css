@@ -1,15 +1,67 @@
 @font-face {
-    font-family: 'Shrikhand-Regular', 'Roboto-Regular';
-    src: url(Shrikhand-Regular.otf);
-    src: url(Roboto-Regular.ttf);
+  font-family: 'Shrikhand-Regular', 'Roboto-Regular';
+  src: url(Shrikhand-Regular.otf);
+  src: url(Roboto-Regular.ttf);
 }
 
 * {
-    font-family: 'Roboto-Regular';
+  font-family: 'Roboto-Regular';
   }
   
 h2 {
-    font-family: 'Shrikhand-Regular';
+  font-family: 'Shrikhand-Regular';
   }
 
-  
+body {
+  margin-top: 3px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.BodyMain {
+  width: 95%;
+  margin: auto; 
+}
+
+.headerlogo {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#prev-reserv {
+  background-color: #ededed;
+  height: 350px;
+  text-align: center;
+}
+
+.location {
+  background-color: #d4d4d4;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid #bababa;
+}
+
+.location .fas {
+  font-size: 25px;
+}
+
+.location input {
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  background-color: #d4d4d4;
+  font-size: 1.1em;
+  height: 40px;
+}
+
+.location input::placeholder {
+  color: black;
+}
