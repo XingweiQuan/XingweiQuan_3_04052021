@@ -1,15 +1,12 @@
-@font-face {
-  font-family: 'Shrikhand-Regular', 'Roboto-Regular';
-  src: url(Shrikhand-Regular.otf);
-  src: url(Roboto-Regular.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 
 * {
-  font-family: 'Roboto-Regular';
+  font-family: "Roboto";
   }
   
-h2 {
-  font-family: 'Shrikhand-Regular';
+h3 {
+  font-family: "Shrikhand";
   }
 
 body {
@@ -145,7 +142,7 @@ body {
   position: relative;
   height: 28px;
   top: 28px;
-  left: 10px;
+  left: 1%;
 }
 
 .function-icon .fas {
@@ -156,12 +153,12 @@ body {
   font-size: 1.2em;
   position: relative;
   top: 28px;
-  left: 30px;
+  left: 5%;
 }
 
 #prev-restaurant {
   margin-top: 50px;
-  margin-bottom: 50px;
+  
   padding-left: 20px;
   padding-right: 20px;
   background-color:#ededed;
@@ -179,6 +176,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .restaurant-article {
@@ -252,3 +250,28 @@ body {
   padding-top: 15px;
   border-radius: 3px;
 }
+
+#footer {
+  background-color: #353535;
+  color: white;
+  padding: 5%;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-content .fa-utensils {
+  margin-right: 12px;
+}
+
+.footer-content .fa-hands-helping {
+  margin-right: 5px;
+}
+
+footer p {
+  margin: 0;
+}
+
