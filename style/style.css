@@ -18,11 +18,6 @@ body {
   margin-right: 0;
 }
 
-.BodyMain {
-  width: 95%;
-  margin: auto; 
-}
-
 .headerlogo {
   display: flex;
   justify-content: center;
@@ -162,4 +157,82 @@ body {
   position: relative;
   top: 28px;
   left: 30px;
+}
+
+#prev-restaurant {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:#ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurant-header {
+  margin-top: 50px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.restaurant-article {
+  background-color: white;
+  border-radius: 20px;
+  height: 300px;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0.5px 0.5px 10px lightgray;
+}
+
+.restaurant-article__image {
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  flex: 1;
+}
+
+.restaurant-article__image img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.restaurant-article__content {
+  height: 30%; 
+  font-size: 0.8em;
+  padding: 0 0.8rem;
+  line-height: 0.8rem;
+}
+
+.restaurant-article__content a {
+  text-decoration: none;
+  color: black;
+}
+
+.restaurant-article__content a h2 {
+  margin-top: 25px;
+}
+
+.restaurant-article__content a p {
+  font-size: 1.5em;
+}
+
+.heart-icon {
+  float: right;
+  position: relative;
+  bottom: 50px;
+  right: 15px;
+  font-size: 2em;
 }
