@@ -10,7 +10,6 @@ h3 {
   }
 
 body {
-  margin-top: 3px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -275,3 +274,55 @@ footer p {
   margin: 0;
 }
 
+.fa-arrow-left {
+  font-size: 1.5em;
+  float: right;
+  position: relative;
+  right: 90%;
+  top: -40px;
+}
+
+.prev-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.prev-menu .restaurant-article__image {
+  width: 100%;
+  border-radius: 0%;
+  position: relative;
+  z-index: 1;
+  top: -24px;
+}
+
+.menu-article {
+  background-color: #ededed;
+  border-radius: 35px 35px 0 0;
+  margin-top: -60px;
+  z-index: 2;
+  padding: 10px 20px 0 20px;
+  
+}
+
+.menu-article h3 {
+  font-size: 1.5em;
+}
+
+.menu-article .heart-icon {
+  float: right;
+  position: relative;
+  top: -60px;
+}
+
+.menu-article__contenu {
+  margin-top: 40px;
+}
+
+.menu-type {
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 40px;
+  padding-bottom: 5px;
+  border-bottom: solid 3px #99E2D0;
+}
