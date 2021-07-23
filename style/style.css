@@ -83,14 +83,16 @@ body {
   margin: 1rem auto;
 }
 
-.reserv .btn {
+.btn {
   color: white;
   height: 30px;
   border-radius: 30px;
   width: 200px;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
-  text-align: center;
-  padding: 15px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
 }
 
 .reserv a {
@@ -325,4 +327,36 @@ footer p {
   width: 40px;
   padding-bottom: 5px;
   border-bottom: solid 3px #99E2D0;
+}
+
+.meal {
+  display: flex;
+  align-items: flex-end;
+  border-radius: 20px;
+  background-color: white;
+  height: 72px;
+  box-shadow: 3px 3px 10px #ededed;
+  padding: 0 20px 0 20px;
+  margin-bottom: 15px;
+}
+
+.meal__contenu {
+  height: 100%;
+  width: 90%;
+}
+
+.meal__contenu h4 {
+  margin: 14px 0 5px 0;
+}
+
+.meal__detail {
+  margin: 0 0 14px 0;
+  width: 90%;
+  height: 30%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-article .btn {
+  margin: 50px auto 50px auto;
 }
