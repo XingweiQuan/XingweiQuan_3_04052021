@@ -396,6 +396,11 @@ footer p {
     width: 47%;
   }
 
+  .menu-article {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
   .footer__list {
     flex-direction: row;
   }
