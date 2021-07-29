@@ -81,6 +81,7 @@ body {
 
 .reserv a {
   margin: 1rem auto;
+  text-decoration: none;
 }
 
 .btn {
@@ -101,10 +102,6 @@ body {
   box-shadow: 5px 3px 5px #bababa;
 }
 
-.reserv a {
-  text-decoration: none;
-}
-
 @media (min-width: 0) {
 
 #prev-function {
@@ -118,8 +115,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-left: 10px;
-  
+  margin-left: 10px; 
 }
 
 .function-step {
@@ -168,7 +164,6 @@ body {
 
 #prev-restaurant {
   margin-top: 50px;
-  
   padding-left: 20px;
   padding-right: 20px;
   background-color:#ededed;
@@ -198,12 +193,10 @@ body {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  
   box-shadow: 0.5px 0.5px 10px lightgray;
 }
 
 .restaurant-article__image {
-
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   overflow: hidden;
@@ -268,7 +261,6 @@ body {
 }
 
 .footer__list {
-  
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -321,7 +313,6 @@ footer p {
   margin-top: -60px;
   z-index: 2;
   padding: 10px 20px 0 20px;
-  
 }
 
 .menu-article h3 {
@@ -396,7 +387,6 @@ footer p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 
   .restaurant-article {
