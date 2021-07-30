@@ -144,6 +144,7 @@ body {
 }
 
 .function-icon {
+  color: gray;
   position: relative;
   height: 28px;
   top: 28px;
@@ -396,6 +397,13 @@ footer p {
   .menu-article {
     padding-left: 15%;
     padding-right: 15%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer__list {
