@@ -57,3 +57,22 @@
         }
     }
 }
+
+/* 
+
+@media (min-width: 769px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .footer__list {
+            flex-direction: row;
+            .footer-content {
+                margin-right: 40px;
+            }
+        }
+    }
+}
+
+*/

@@ -197,6 +197,16 @@ body {
     box-shadow: 5px 3px 5px #bababa;
   }
 }
+/*
+
+@media (min-width: 769px) {
+    .menu-article {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+*/
 @media (min-width: 0) {
   #footer {
     background-color: #353535;
@@ -254,5 +264,23 @@ body {
     margin: 0;
   }
 }
+/*
+
+@media (min-width: 769px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .footer__list {
+            flex-direction: row;
+            .footer-content {
+                margin-right: 40px;
+            }
+        }
+    }
+}
+
+*/
 
 /*# sourceMappingURL=style_menu.css.map */
