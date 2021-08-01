@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+* {
+  font-family: "Roboto";
+}
+
+h3 {
+  font-family: "Shrikhand";
+}
+
+body {
+  margin: 0;
+}
+
+.headerlogo {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fa-arrow-left {
+  font-size: 1.5em;
+  float: right;
+  position: relative;
+  right: 90%;
+  top: -40px;
+  color: black;
+}
+
+@media (min-width: 0) {
+  .prev-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .prev-menu .restaurant-article__image {
+    width: 100%;
+    border-radius: 0%;
+    position: relative;
+    z-index: 1;
+    top: -24px;
+  }
+  .prev-menu .restaurant-article__image img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .prev-menu .menu-article {
+    background-color: #ededed;
+    border-radius: 35px 35px 0 0;
+    margin-top: -60px;
+    z-index: 2;
+    padding: 10px 20px 0 20px;
+  }
+  .prev-menu .menu-article h3 {
+    font-size: 1.5em;
+  }
+  .prev-menu .menu-article .heart-icon {
+    float: right;
+    position: relative;
+    top: -60px;
+  }
+  .prev-menu .menu-article .menu-article__contenu {
+    margin-top: 40px;
+  }
+  .prev-menu .menu-article .menu-article__contenu .menu-type {
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 40px;
+    padding-bottom: 5px;
+    border-bottom: solid 3px #99E2D0;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal {
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    background-color: white;
+    height: 72px;
+    box-shadow: 3px 3px 10px #ededed;
+    padding: 0 20px 0 20px;
+    margin-bottom: 15px;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal .meal__contenu {
+    height: 100%;
+    width: 90%;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal .meal__contenu h4 {
+    margin: 14px 0 5px 0;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal .meal__contenu .meal__detail {
+    margin: 0 0 14px 0;
+    width: 90%;
+    height: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .prev-menu .menu-article .btn {
+    margin: 50px auto 50px auto;
+    color: white;
+    height: 30px;
+    border-radius: 30px;
+    width: 200px;
+    background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 3px 10px #bababa;
+  }
+  .prev-menu .menu-article .btn:hover {
+    opacity: 0.8;
+    box-shadow: 5px 3px 5px #bababa;
+  }
+}
+@media (min-width: 769px) {
+  .prev-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .prev-menu .restaurant-article__image {
+    width: 100%;
+    border-radius: 0%;
+    position: relative;
+    z-index: 1;
+    top: -24px;
+  }
+  .prev-menu .menu-article {
+    background-color: #ededed;
+    border-radius: 35px 35px 0 0;
+    margin-top: -60px;
+    z-index: 2;
+    padding: 10px 15% 0 15%;
+  }
+  .prev-menu .menu-article h3 {
+    font-size: 1.5em;
+  }
+  .prev-menu .menu-article .heart-icon {
+    float: right;
+    position: relative;
+    top: -60px;
+  }
+  .prev-menu .menu-article .menu-article__contenu {
+    margin-top: 40px;
+  }
+  .prev-menu .menu-article .menu-article__contenu .menu-type {
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 40px;
+    padding-bottom: 5px;
+    border-bottom: solid 3px #99E2D0;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal {
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    background-color: white;
+    height: 72px;
+    box-shadow: 3px 3px 10px #ededed;
+    padding: 0 20px 0 20px;
+    margin-bottom: 15px;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal .meal__contenu {
+    height: 100%;
+    width: 90%;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal .meal__contenu h4 {
+    margin: 14px 0 5px 0;
+  }
+  .prev-menu .menu-article .menu-article__contenu .meal .meal__contenu .meal__detail {
+    margin: 0 0 14px 0;
+    width: 90%;
+    height: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .prev-menu .menu-article .btn {
+    margin: 50px auto 50px auto;
+    color: white;
+    height: 30px;
+    border-radius: 30px;
+    width: 200px;
+    background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 3px 10px #bababa;
+  }
+  .prev-menu .menu-article .btn:hover {
+    opacity: 0.8;
+    box-shadow: 5px 3px 5px #bababa;
+  }
+}
+@media (min-width: 0) {
+  #footer {
+    background-color: #353535;
+    color: white;
+    padding: 5%;
+  }
+  #footer .footer__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #footer .footer__list .footer-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  #footer .footer__list .footer-content .fa-utensils {
+    margin-right: 12px;
+  }
+  #footer .footer__list .footer-content .fa-hands-helping {
+    margin-right: 5px;
+  }
+  #footer .footer__list .footer-content p {
+    margin: 0;
+  }
+}
+@media (min-width: 769px) {
+  #footer {
+    background-color: #353535;
+    color: white;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer .footer__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #footer .footer__list .footer-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+  #footer .footer__list .footer-content .fa-utensils {
+    margin-right: 12px;
+  }
+  #footer .footer__list .footer-content .fa-hands-helping {
+    margin-right: 5px;
+  }
+  #footer .footer__list .footer-content p {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=style_menu.css.map */
