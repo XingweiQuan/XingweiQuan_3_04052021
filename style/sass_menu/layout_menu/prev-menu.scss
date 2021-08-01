@@ -1,0 +1,73 @@
+@media (min-width: 0) {
+    .prev-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .restaurant-article__image {
+            width: 100%;
+            border-radius: 0%;
+            position: relative;
+            z-index: 1;
+            top: -24px;
+        }
+        .menu-article {
+            background-color: #ededed;
+            border-radius: 35px 35px 0 0;
+            margin-top: -60px;
+            z-index: 2;
+            padding: 10px 20px 0 20px;
+            h3 {
+                font-size: 1.5em;
+            }
+            .heart-icon {
+                float: right;
+                position: relative;
+                top: -60px;
+            }
+            .menu-article__contenu {
+                margin-top: 40px;
+                .menu-type {
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    width: 40px;
+                    padding-bottom: 5px;
+                    border-bottom: solid 3px #99E2D0;
+                }
+                .meal {
+                    display: flex;
+                    align-items: flex-end;
+                    border-radius: 20px;
+                    background-color: white;
+                    height: 72px;
+                    box-shadow: 3px 3px 10px #ededed;
+                    padding: 0 20px 0 20px;
+                    margin-bottom: 15px;
+                    .meal__contenu {
+                        height: 100%;
+                        width: 90%;
+                        h4 {
+                            margin: 14px 0 5px 0;
+                        }
+                        .meal__detail {
+                            margin: 0 0 14px 0;
+                            width: 90%;
+                            height: 30%;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+            }
+            .btn {
+                margin: 50px auto 50px auto;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-article {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
