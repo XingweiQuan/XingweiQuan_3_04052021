@@ -33,16 +33,17 @@
 }
 
 .meal:nth-child(2) {
-    animation: fadeIn 450ms;
+    animation: fadeIn 1300ms;
 }
 
 .meal:nth-child(3) {
-    animation: fadeIn 600ms;
+    animation: fadeIn 2300ms;
 }
 
 .meal:nth-child(4) {
-    animation: fadeIn 750ms;
+    animation: fadeIn 3300ms;
 }
+
 
 @keyframes fadeIn {
     0% {opacity: 0;}
