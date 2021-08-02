@@ -1,4 +1,6 @@
 
+/*
+
 .meal:nth-child(1) {
     animation: fadeIn 300ms;
     animation-delay: 300ms;
@@ -24,3 +26,25 @@
     100% {opacity: 1;}
 }
 
+*/@at-root
+
+.meal:nth-child(1) {
+    animation: fadeIn 300ms;
+}
+
+.meal:nth-child(2) {
+    animation: fadeIn 450ms;
+}
+
+.meal:nth-child(3) {
+    animation: fadeIn 600ms;
+}
+
+.meal:nth-child(4) {
+    animation: fadeIn 750ms;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
