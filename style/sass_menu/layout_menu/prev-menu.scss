@@ -22,6 +22,10 @@
             margin-top: -60px;
             z-index: 2;
             padding: 10px 20px 0 20px;
+            @media (min-width: 769px) {
+                padding-left: 15%;
+                padding-right: 15%;
+            }
             h3 {
                 font-size: 1.5em;
             }
@@ -84,6 +88,8 @@
         }
     }
 }
+
+/* ESSAI 2
 
 @media (min-width: 769px) {
 
@@ -167,7 +173,9 @@
     }
 }
 
-/*
+*/
+
+/* ESSAI 1
 
 @media (min-width: 769px) {
     .menu-article {

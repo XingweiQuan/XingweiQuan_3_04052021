@@ -16,6 +16,11 @@
             justify-content: space-around;
             align-items: center;
             margin-bottom: 50px;
+            @media (min-width: 769px) {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
             .restaurant-article {
                 background-color: white;
                 border-radius: 20px;
@@ -26,6 +31,9 @@
                 display: flex;
                 flex-direction: column;
                 box-shadow: 0.5px 0.5px 10px lightgray;
+                @media (min-width: 769px) {
+                    width: 47%;
+                }
                 .restaurant-article__image {
                     border-top-left-radius: 20px;
                     border-top-right-radius: 20px;
@@ -80,6 +88,8 @@
         }
     }
 }
+
+/* ESSAI 2
 
 @media (min-width: 769px) {
 
@@ -166,7 +176,9 @@
     }
 }
 
-/*
+*/
+
+/* ESSAI 1
 
 @media (min-width: 769px) {
     .restaurant-list {

@@ -3,14 +3,26 @@
         background-color: #353535;
         color: white;
         padding: 5%;
+        @media (min-width: 769px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
         .footer__list {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            @media (min-width: 769px) {
+                flex-direction: row;
+            }
             .footer-content {
                 display: flex;
                 align-items: center;
                 margin-bottom: 10px;
+                @media (min-width: 769px) {
+                    margin-right: 40px;
+                }
                 .fa-utensils {
                     margin-right: 12px;
                 }
@@ -24,6 +36,9 @@
         }
     }
 }
+
+
+/* ESSAI 2
 
 @media (min-width: 769px) {
 
@@ -58,7 +73,9 @@
     }
 }
 
-/* 
+*/
+
+/* ESSAI 1
 
 @media (min-width: 769px) {
     footer {
