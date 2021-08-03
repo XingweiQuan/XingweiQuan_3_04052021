@@ -71,9 +71,19 @@ body {
 }
 @media (min-width: 0) {
   .prev-menu .menu-article .heart-icon {
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    -webkit-background-clip: text;
     float: right;
     position: relative;
     top: -60px;
+    font-size: 2em;
+  }
+  .prev-menu .menu-article .heart-icon .fas:hover {
+    background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+    -webkit-text-stroke: 0px black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 @media (min-width: 0) {
