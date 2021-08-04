@@ -372,10 +372,6 @@ body {
 }
 
 */
-.meal:nth-child(1) {
-  animation: fadeIn 300ms;
-}
-
 .meal:nth-child(2) {
   animation: fadeIn 1300ms;
 }
@@ -386,6 +382,10 @@ body {
 
 .meal:nth-child(4) {
   animation: fadeIn 3300ms;
+}
+
+.meal:nth-child(5) {
+  animation: fadeIn 4300ms;
 }
 
 @keyframes fadeIn {
