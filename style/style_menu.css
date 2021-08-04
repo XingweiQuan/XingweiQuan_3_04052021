@@ -137,8 +137,9 @@ body {
     box-shadow: 5px 3px 10px #bababa;
   }
   .prev-menu .menu-article .btn:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     box-shadow: 5px 3px 5px #bababa;
+    transform: scale(1.01);
   }
 }
 /* ESSAI 2
