@@ -402,5 +402,17 @@ body {
     opacity: 1;
   }
 }
+.heart-icon .fas:hover {
+  animation: fadeInHeart 2s ease;
+}
+
+@keyframes fadeInHeart {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=style_menu.css.map */
