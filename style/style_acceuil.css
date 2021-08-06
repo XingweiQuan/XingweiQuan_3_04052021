@@ -650,6 +650,7 @@ footer {
   height: 100%;
   background: white;
   z-index: 9999;
+  animation: wrapper 2s;
 }
 .loading-wrapper .loader {
   position: absolute;
@@ -658,6 +659,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: wrapper 2s;
 }
 
 .lettre {
@@ -712,6 +714,17 @@ footer {
   100% {
     color: #fff900;
     text-shadow: 0 0 7px #fff900;
+  }
+}
+@keyframes wrapper {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
