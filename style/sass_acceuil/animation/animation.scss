@@ -73,6 +73,7 @@
         background: white;
         z-index: 9999;
         animation: wrapper 2s;
+        -webkit-animation-fill-mode: forwards;
         .loader {
             position: absolute;
             width: 100%;
@@ -81,6 +82,7 @@
             justify-content: center;
             align-items: center;
             animation: wrapper 2s;
+            
         }
     }
 
@@ -89,7 +91,8 @@
         font-size: 50px;
         font-family: "Shrikhand";
         margin-bottom: 100px;
-        animation: load 1.2s linear infinite;
+        animation: load 1s linear infinite;
+        -webkit-animation-fill-mode: forwards;
     }
 
     .lettre:nth-child(1) {

@@ -651,6 +651,7 @@ footer {
   background: white;
   z-index: 9999;
   animation: wrapper 2s;
+  -webkit-animation-fill-mode: forwards;
 }
 .loading-wrapper .loader {
   position: absolute;
@@ -667,7 +668,8 @@ footer {
   font-size: 50px;
   font-family: "Shrikhand";
   margin-bottom: 100px;
-  animation: load 1.2s linear infinite;
+  animation: load 1s linear infinite;
+  -webkit-animation-fill-mode: forwards;
 }
 
 .lettre:nth-child(1) {
@@ -719,12 +721,15 @@ footer {
 @keyframes wrapper {
   0% {
     opacity: 1;
+    z-index: 9999;
   }
   99% {
     opacity: 1;
+    z-index: 9999;
   }
   100% {
     opacity: 0;
+    z-index: -1;
   }
 }
 
