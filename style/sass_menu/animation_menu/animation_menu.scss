@@ -84,7 +84,7 @@
             border-radius: 0 20px 20px 0;
             overflow: hidden;
             width: 0%;
-            transition: width 1.5s ease;
+            transition: width 1s ease;
             .fas{
                 margin: auto;
                 font-size: 1.5em;
@@ -92,7 +92,7 @@
         }
         &:hover {
             .fas {
-                animation: circle 1s;
+                animation: circle 1s ease;
             }
             .meal__valid {
                 width: 25%;
