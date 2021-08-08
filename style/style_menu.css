@@ -100,11 +100,12 @@ body {
   .prev-menu .menu-article .menu-article__contenu .meal {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     border-radius: 20px;
     background-color: white;
     height: 72px;
     box-shadow: 3px 3px 10px #ededed;
-    padding: 0 20px 0 20px;
+    padding: 0 0 0 20px;
     margin-bottom: 15px;
   }
   .prev-menu .menu-article .menu-article__contenu .meal .meal__contenu {
@@ -409,6 +410,25 @@ body {
   100% {
     opacity: 1;
   }
+}
+.prev-menu .meal__valid {
+  float: right;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-left: 2%;
+  background-color: #99E2D0;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  overflow: hidden;
+  width: 0%;
+}
+.prev-menu .meal__valid .fas {
+  margin: auto;
+  font-size: 1.5em;
+}
+.prev-menu .meal:hover .meal__valid {
+  width: 25%;
 }
 
 /*# sourceMappingURL=style_menu.css.map */
