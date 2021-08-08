@@ -422,6 +422,7 @@ body {
   border-radius: 0 20px 20px 0;
   overflow: hidden;
   width: 0%;
+  transition: width 1.5s ease;
 }
 .prev-menu .meal__valid .fas {
   margin: auto;
