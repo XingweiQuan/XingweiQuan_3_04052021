@@ -30,6 +30,11 @@ body {
   top: -40px;
   color: black;
 }
+@media (min-width: 769px) {
+  .fa-arrow-left {
+    right: 83%;
+  }
+}
 
 @media (min-width: 0) {
   .prev-menu {
@@ -66,7 +71,7 @@ body {
 }
 @media (min-width: 0) {
   .prev-menu .menu-article h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 }
 @media (min-width: 0) {
@@ -76,8 +81,8 @@ body {
     -webkit-background-clip: text;
     float: right;
     position: relative;
-    top: -60px;
-    font-size: 2em;
+    top: -63px;
+    font-size: 1.5em;
   }
   .prev-menu .menu-article .heart-icon .fas:hover {
     background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
