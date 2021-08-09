@@ -121,6 +121,7 @@ body {
     height: 30%;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
 @media (min-width: 0) {
