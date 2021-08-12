@@ -12,58 +12,6 @@
     }
 }
 
-/*
-.loading-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    z-index: 9999;
-    animation: wrapper 2s;
-    .loader {
-        margin: auto;
-        position: relative;
-        top: 300px;
-        width: 30%;
-        background-color:#f3f3f3;
-        margin: auto;
-        top: 350px;
-        animation: wrapper 2s;
-        .bar {
-            width: 0%;
-            height: 20px;
-            background-color:#3498db;
-            animation: spin 2s linear;
-            }
-        
-        }
-    }
-
-    @keyframes wrapper {
-        0% {
-            opacity: 1;
-        }
-        99% {
-            opacity: 1;
-        }
-        100%{
-            opacity: 0;
-            
-        }
-    }
-
-    @keyframes spin {
-        0% {
-            width: 0%;
-        }
-        100% {
-            width: 100%;
-        }
-    }
-    */
-
     .loading-wrapper {
         position: fixed;
         top: 0;
@@ -92,7 +40,6 @@
         font-family: "Shrikhand";
         margin-bottom: 100px;
         animation: load 1s linear forwards;
-        /*-webkit-animation-fill-mode: forwards;*/
     }
 
     .lettre:nth-child(1) {
