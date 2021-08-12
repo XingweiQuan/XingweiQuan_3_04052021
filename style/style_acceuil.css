@@ -655,7 +655,7 @@ footer {
   background: white;
   z-index: 9999;
   animation: wrapper 2s;
-  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 .loading-wrapper .loader {
   position: absolute;
@@ -672,8 +672,8 @@ footer {
   font-size: 50px;
   font-family: "Shrikhand";
   margin-bottom: 100px;
-  animation: load 1s linear infinite;
-  -webkit-animation-fill-mode: forwards;
+  animation: load 1s linear forwards;
+  /*-webkit-animation-fill-mode: forwards;*/
 }
 
 .lettre:nth-child(1) {
