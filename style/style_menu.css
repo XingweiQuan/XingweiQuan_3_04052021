@@ -272,11 +272,9 @@ body {
 @keyframes circle {
   0% {
     transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
   }
   100% {
     transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
   }
 }
 
