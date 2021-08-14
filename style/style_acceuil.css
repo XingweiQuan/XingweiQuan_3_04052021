@@ -372,8 +372,7 @@ footer {
   height: 100%;
   background: white;
   z-index: 9999;
-  animation: wrapper 2s;
-  animation-fill-mode: forwards;
+  animation: wrapper 2s forwards;
 }
 .loading-wrapper .loader {
   width: 100%;
@@ -381,7 +380,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: wrapper 2s;
+  animation: wrapper 2s forwards;
 }
 
 .lettre {
