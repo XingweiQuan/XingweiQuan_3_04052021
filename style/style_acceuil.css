@@ -70,7 +70,7 @@ footer {
   font-size: 1.1em;
   height: 40px;
 }
-#prev-reserv .location input:placeholder {
+#prev-reserv .location input::placeholder {
   color: black;
 }
 #prev-reserv .reserv {
